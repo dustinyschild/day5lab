@@ -78,10 +78,10 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2,3,4]; //eslint-disable-line
 
 function sumArray(testArray){ //eslint-disable-line
-  var sumArray = [];
-  sumArray[0] = testArray[0] + testArray[1] + testArray[2];
-  sumArray[1] =  testArray + ' was passed in as an array of numbers, and ' + sumArray[0] + ' is their sum.';
-  console.log(sumArray);
+  var sumArrayValues = [];
+  sumArrayValues[0] = testArray[0] + testArray[1] + testArray[2];
+  sumArrayValues[1] =  testArray + ' was passed in as an array of numbers, and ' + sumArrayValues[0] + ' is their sum.';
+  console.log(sumArrayValues);
 }
 
 // Here is the test for sumArray(); uncomment it to run it
@@ -99,10 +99,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(testArray){ //eslint-disable-line
-
+  var multiplyArrayValues = [];
+  multiplyArrayValues[0] = testArray[0] + testArray[1] + testArray[2];
+  multiplyArrayValues[1] =  'The numbers ' + testArray + ' have a product of ' + multiplyArrayValues[0] + '.';
+  console.log(multiplyArrayValues);
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(2,3,4);
+multiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
