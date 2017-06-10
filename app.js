@@ -78,10 +78,10 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2,3,4]; //eslint-disable-line
 
 function sumArray(testArray){ //eslint-disable-line
-  var sumArray = [];
-  sumArray[0] = testArray[0] + testArray[1] + testArray[2];
-  sumArray[1] =  testArray + ' was passed in as an array of numbers, and ' + sumArray[0] + ' is their sum.';
-  console.log(sumArray);
+  var sumArrayValues = [];
+  sumArrayValues[0] = testArray[0] + testArray[1] + testArray[2];
+  sumArrayValues[1] =  testArray + ' was passed in as an array of numbers, and ' + sumArrayValues[0] + ' is their sum.';
+  console.log(sumArrayValues);
 }
 
 // Here is the test for sumArray(); uncomment it to run it
