@@ -80,7 +80,7 @@ var testArray = [2,3,4]; //eslint-disable-line
 function sumArray(testArray){ //eslint-disable-line
   var sumArrayValues = [];
   sumArrayValues[0] = testArray[0] + testArray[1] + testArray[2];
-  sumArrayValues[1] =  testArray + ' was passed in as an array of numbers, and ' + sumArrayValues[0] + ' is their sum.';
+  sumArrayValues[1] = testArray + ' was passed in as an array of numbers, and ' + sumArrayValues[0] + ' is their sum.';
   console.log(sumArrayValues);
 }
 
@@ -101,7 +101,7 @@ Test this function by hand in the console to get it working, and when you think 
 function multiplyArray(testArray){ //eslint-disable-line
   var multiplyArrayValues = [];
   multiplyArrayValues[0] = testArray[0] + testArray[1] + testArray[2];
-  multiplyArrayValues[1] =  'The numbers ' + testArray + ' have a product of ' + multiplyArrayValues[0] + '.';
+  multiplyArrayValues[1] = 'The numbers ' + testArray + ' have a product of ' + multiplyArrayValues[0] + '.';
   console.log(multiplyArrayValues);
 }
 
